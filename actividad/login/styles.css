@@ -1,0 +1,76 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #360404;
+}
+
+
+.contenedor{
+    width: 400px;
+    height: 480px;
+    background-color:#bab3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #000;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo{
+    margin-bottom: 40px;
+}
+
+.descripcion{
+    font-size: 15px;
+}
+
+.input{
+    padding: 12px;
+    width: 300px;
+    background-color: #c5a2a2;
+    border:none;
+    border-bottom: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px #000;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.inicio_sesion{
+    padding: 12px;
+    width: 300px;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    box-shadow: 0px 0px 3px #000;
+    background-color: rgba(95, 69, 69, 0.57);
+    border:none;
+}
+
+.input::placeholder{
+    color: #000000aa;
+}
+
